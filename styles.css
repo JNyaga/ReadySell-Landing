@@ -1,0 +1,75 @@
+body{
+    background-color:  rgba(113, 121, 120,0.1);
+    overflow-x: hidden;
+    overflow-wrap: normal;
+
+    
+}
+
+
+#jumbo{
+    height: 100vh;
+    background-image: url("./w-cover.jpg");
+    background-size: cover; /* Scale the background image to cover the entire div */
+    background-position: center; /* Center the background image */
+    
+   
+}
+
+#jumbo p{
+    color: rgb(10, 10, 10);
+    font-weight: 600;
+}
+
+#jumbo .btn{
+    background-color: rgb(113, 121, 120);
+    color: #000;
+    
+}
+
+section{
+    height: 100vh;    
+}
+
+.work-wrap .img {
+    max-height: 600px; /* Maximum height of the div */
+    overflow: hidden; /* Hide any overflow */
+}
+.owl-nav {
+    position: absolute; /* Position the buttons within the slide */
+    top: 50%; /* Center the buttons vertically */
+    transform: translateY(-100%); /* Center the buttons vertically */
+  }
+  
+  .owl-prev, .owl-next {
+    width: 50px; /* Set the width of the buttons */
+    height: 50px; /* Set the height of the buttons */
+  }
+  
+ 
+
+img {
+     /* Maximum width of the image */
+    max-height: 100%; /* Maximum height of the image */
+  }
+
+.work-wrap {
+    height: 600px;
+}
+
+nav{
+    background-color: rgba(184, 177, 177, 0.603);
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    /* background-color: black; */
+    width: 100%;
+    
+}
+.about {
+    overflow: hidden; /* Hide any overflow */
+  }
